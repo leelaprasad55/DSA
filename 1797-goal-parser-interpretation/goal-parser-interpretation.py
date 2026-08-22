@@ -1,0 +1,6 @@
+class Solution:
+    def interpret(self, c: str) -> str:
+        c=c.replace("()","o")
+        c=c.replace("(al)","al")
+        return c
+        
